@@ -3,8 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "ts"
+    }
+  },
   "scripts": {
-    "build": "node build.mjs"
+    "build": "node build.mjs",
+    "build:watch": "npm-watch"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +24,8 @@
     "obsidian-tempura": "https://github.com/tadashi-aikawa/obsidian-tempura/tarball/20231029.1",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "npm-watch": "^0.11.0"
   }
 }
