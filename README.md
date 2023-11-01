@@ -26,4 +26,4 @@ Then, we’ll be able to edit src/*.ts with static type checking and auto-comple
 
 ![](./image.png)
 
-If the file is changed, src/*.ts will be immediately transpiled, generating <dist>/*.md.
+If the file is changed, `src/*.ts` will be immediately transpiled, generating `<dist>/*.md`.
